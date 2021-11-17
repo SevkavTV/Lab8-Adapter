@@ -23,7 +23,6 @@ public class FacebookAdapter implements User {
 
     @Override
     public Date getTime() {
-        System.out.println("Seva lox");
         return user.getUserActiveTime();
     }
 }
